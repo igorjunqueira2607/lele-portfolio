@@ -1,10 +1,12 @@
 import React from 'react';
 import Menu from '../components/Menu';
+import Footer from '../components/Footer';
 
 function About() {
   return(
-    <div class="bg-main">
+    <div class="flex flex-col h-screen relative">
       <Menu />
+      <Footer />
     </div>
   )
 }

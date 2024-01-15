@@ -3,9 +3,9 @@ import louvre from '../images/louvre3.jpg'
 
 function MainImage() {
   return(
-    <section class="h-dvh bg-green-200">
-      <img src={louvre} alt="Museu do Louvre" class="h-96"></img>
-    </section>
+    <div class="h-screen w-screen">
+      <img src={louvre} alt="Museu do Louvre" class="bg-containt"></img>
+    </div>
   )
 }
 
