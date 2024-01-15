@@ -13,9 +13,9 @@ module.exports = {
       fontFamily: {
         'montserrat': ['"Montserrat"', 'cursive'],
       },
-      // backgroundImage: {
-      //   'main': "url('/images/louvre3.jpg')",
-      // }
+      boxShadow: {
+        '3xl': '0 100px 60px -15px rgba(0, 0, 0, 0.3)',
+      }
     },
   },
   plugins: [],

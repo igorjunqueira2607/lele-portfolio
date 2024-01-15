@@ -1,13 +1,13 @@
 import React from 'react';
 import Menu from '../components/Menu';
-import MainImage from '../components/MainImage';
+import Footer from '../components/Footer';
 
 function MainPage() {
   return(
-    <div class="bg-main">
+    <body class="flex flex-col h-screen relative">
       <Menu />
-      <MainImage />
-    </div>
+      <Footer />
+    </body>
   )
 }
 
